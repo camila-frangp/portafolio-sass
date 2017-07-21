@@ -1,0 +1,26 @@
+nav{
+	background-color: $color_nav;
+}
+
+body{
+	background-color: $color_fondo;
+}
+
+.slider{
+	position: $abso;
+	top: $cero;
+	left: $cero;
+	ul li h1{
+		font-weight: $negrita;
+		margin-top: $alto_h1;
+	}
+
+	ul li h6{
+		margin-top: $alto_sub;
+	}
+
+	ul li a{
+		background-color: $color_btn;
+		margin-top: $alto_sub;
+	}
+}
