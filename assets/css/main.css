@@ -6799,8 +6799,10 @@ body {
   width: 90%;
   margin-left: 5%;
   border-radius: 10px;
-  box-shadow: 10px; }
+  box-shadow: 10px 10px 10px #eeeeee; }
   .contenedor .texto-inicio, .contenedor .iconos {
     margin-top: 5vh; }
+  .contenedor .imagenbn {
+    background-image: url(../img/img_city.jpg); }
 
 /*# sourceMappingURL=main.css.map */
