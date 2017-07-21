@@ -6781,7 +6781,8 @@ body {
 .slider {
   position: absolute;
   top: 0;
-  left: 0; }
+  left: 0;
+  z-index: -1; }
   .slider ul li h1 {
     font-weight: bold;
     margin-top: 20vh; }
@@ -6789,6 +6790,17 @@ body {
     margin-top: 5vh; }
   .slider ul li a {
     background-color: #e91e63;
+    margin-top: 5vh; }
+
+.contenedor {
+  position: absolute;
+  top: 80vh;
+  background-color: #fff;
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 10px;
+  box-shadow: 10px; }
+  .contenedor .texto-inicio, .contenedor .iconos {
     margin-top: 5vh; }
 
 /*# sourceMappingURL=main.css.map */

@@ -10,6 +10,7 @@ body{
 	position: $abso;
 	top: $cero;
 	left: $cero;
+	z-index: -1;
 	ul li h1{
 		font-weight: $negrita;
 		margin-top: $alto_h1;
@@ -22,5 +23,18 @@ body{
 	ul li a{
 		background-color: $color_btn;
 		margin-top: $alto_sub;
+	}
+}
+
+.contenedor{
+	position: $abso;
+	top:80vh;
+	background-color: #fff;
+	width:90%;
+	margin-left: 5%;
+	border-radius: 10px;
+	box-shadow: 10px;
+	.texto-inicio, .iconos{
+		margin-top: 5vh;
 	}
 }
