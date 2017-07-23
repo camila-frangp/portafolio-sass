@@ -6799,10 +6799,18 @@ body {
   width: 90%;
   margin-left: 5%;
   border-radius: 10px;
-  box-shadow: 10px 10px 10px #eeeeee; }
+  box-shadow: #eeeeee; }
   .contenedor .texto-inicio, .contenedor .iconos {
     margin-top: 5vh; }
   .contenedor .imagenbn {
-    background-image: url(../img/img_city.jpg); }
+    background-image: url(../img/img_city.jpg);
+    background-size: cover;
+    padding: 7% 5%; }
+    .contenedor .imagenbn .videobn {
+      margin-top: 7%; }
+  .contenedor .products {
+    background-color: #f0f0f0; }
+    .contenedor .products .titulopro {
+      margin-top: 5vh; }
 
 /*# sourceMappingURL=main.css.map */

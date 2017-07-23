@@ -33,11 +33,22 @@ body{
 	width:90%;
 	margin-left: 5%;
 	border-radius: 10px;
-	box-shadow: 10px 10px 10px #eeeeee;
+	box-shadow:#eeeeee;
 	.texto-inicio, .iconos{
 		margin-top: 5vh;
 	}
 	.imagenbn{
-		background-image: url(../img/img_city.jpg)
+		background-image: url(../img/img_city.jpg);
+		background-size: cover;
+		padding: 7% 5%;
+		.videobn{
+			margin-top: 7%;
+		}
+	}
+	.products{
+		background-color:#f0f0f0;
+		.titulopro{
+			margin-top:5vh;
+		}
 	}
 }
