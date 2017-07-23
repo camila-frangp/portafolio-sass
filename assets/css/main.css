@@ -6992,8 +6992,21 @@ body {
       -webkit-transition-property: transform;
       transition-property: transform; }
   .contenedor .clientes {
-    background-color: #fff;
-    padding: 5% 3%; }
+    padding: 5% 3%;
+    background-color: #fff; }
+    .contenedor .clientes h4, .contenedor .clientes h5 {
+      color: #3c4858;
+      font-weight: bold; }
+    .contenedor .clientes p {
+      color: #999; }
+    .contenedor .clientes img {
+      width: 50%; }
+    .contenedor .clientes h6 {
+      color: #777; }
+    .contenedor .clientes .row div p {
+      color: #999;
+      font-size: 0.8em;
+      padding: 10px; }
   .contenedor .subs {
     background-image: url(../img/about.jpg);
     background-size: cover;

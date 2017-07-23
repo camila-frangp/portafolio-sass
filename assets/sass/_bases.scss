@@ -228,8 +228,27 @@ body{
 		}
 	}
 	.clientes{
-		background-color:#fff;
-		padding:5% 3%;
+		@include padd-w();
+		h4, h5{
+			color:$color_titulos;
+			font-weight:$negrita;
+		}
+		p{
+			color:$color_p_sub;
+		}
+		img{
+			width:$mitad
+		}
+		h6{
+			color:$color_sim;
+		}
+		.row div p{
+	
+			color:$color_p_sub;
+			font-size:$tam_menos_uno;
+			padding:$borde;
+		
+		}
 	}
 	.subs{
 		background-image: url(../img/about.jpg);
