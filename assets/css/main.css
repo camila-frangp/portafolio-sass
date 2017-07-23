@@ -6825,5 +6825,10 @@ body {
   .contenedor .clientes {
     background-color: #fff;
     padding: 5% 3%; }
+  .contenedor .subs {
+    background-image: url(../img/about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5% 3%; }
 
 /*# sourceMappingURL=main.css.map */
