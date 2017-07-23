@@ -6822,5 +6822,8 @@ body {
   .contenedor .plan {
     background-color: #f0f0f0;
     padding: 5% 3%; }
+  .contenedor .clientes {
+    background-color: #fff;
+    padding: 5% 3%; }
 
 /*# sourceMappingURL=main.css.map */
