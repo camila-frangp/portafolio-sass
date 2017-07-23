@@ -6833,5 +6833,9 @@ body {
   .contenedor .blog {
     background-color: #fff;
     padding: 5% 3%; }
+  .contenedor .get {
+    background-image: url(../img/img_city.jpg);
+    background-size: cover;
+    padding: 5% 3%; }
 
 /*# sourceMappingURL=main.css.map */
