@@ -6837,5 +6837,11 @@ body {
     background-image: url(../img/img_city.jpg);
     background-size: cover;
     padding: 5% 3%; }
+  .contenedor .close {
+    background-color: #323437;
+    padding: 5% 3%; }
+  .contenedor ul li {
+    display: inline-block;
+    list-style: none; }
 
 /*# sourceMappingURL=main.css.map */
