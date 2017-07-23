@@ -6816,7 +6816,8 @@ body {
   .contenedor .portafolio {
     background-color: #fff;
     padding: 5% 3%; }
-    .contenedor .portafolio .materialboxed {
-      background-color: #000; }
+  .contenedor .team {
+    background-color: #fff;
+    padding: 5% 3%; }
 
 /*# sourceMappingURL=main.css.map */
