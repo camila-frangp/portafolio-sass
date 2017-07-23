@@ -94,7 +94,6 @@ body{
 		background-size: cover;
 		padding: 5% 3%;
 		background-attachment: fixed;
-
 		h3, p{
 			color:$blanco
 		}
@@ -102,11 +101,48 @@ body{
 			margin-top: 7%;
 		}
 	}
+	.negro{
+		background-color:rgba(0,0,0,1);
+	}
 	.products{
-		background-color:#f0f0f0;
-		padding:5% 3%;
+		@include padd-g();
 		.titulopro{
 			margin-top:$alto_sub;
+			h4{
+				color:$color_titulos;
+				font-weight:$negrita;
+			}
+			p{
+				color:$color_p_sub;
+			}
+		}
+		.card{
+			padding: $mar_cinco;
+			border-radius: $radio;
+			
+			.card-image{
+				margin-top:$mar_neg;
+				position:static;
+				img{
+					border-radius: $radio;
+				}
+			}
+			h6{
+				color:$color_btn;
+				font-weight:$negrita;
+			}
+			h4{
+				color:$color_titulos;
+				font-weight:$negrita;
+				font-size:$tam_unotres;
+			}
+			p{
+				color:$color_p_sub;
+			}
+			.valor{
+				color:$color_p_sub;
+				margin-top: 20px;
+			}
 		}
 	}
 	.portafolio{

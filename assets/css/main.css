@@ -6891,11 +6891,38 @@ body {
       color: #fff; }
     .contenedor .imagenbn .videobn {
       margin-top: 7%; }
+  .contenedor .negro {
+    background-color: black; }
   .contenedor .products {
-    background-color: #f0f0f0;
-    padding: 5% 3%; }
+    padding: 5% 3%;
+    background-color: #f0f0f0; }
     .contenedor .products .titulopro {
       margin-top: 5vh; }
+      .contenedor .products .titulopro h4 {
+        color: #3c4858;
+        font-weight: bold; }
+      .contenedor .products .titulopro p {
+        color: #999; }
+    .contenedor .products .card {
+      padding: 5%;
+      border-radius: 4%; }
+      .contenedor .products .card .card-image {
+        margin-top: -15%;
+        position: static; }
+        .contenedor .products .card .card-image img {
+          border-radius: 4%; }
+      .contenedor .products .card h6 {
+        color: #e91e63;
+        font-weight: bold; }
+      .contenedor .products .card h4 {
+        color: #3c4858;
+        font-weight: bold;
+        font-size: 1.2em; }
+      .contenedor .products .card p {
+        color: #999; }
+      .contenedor .products .card .valor {
+        color: #999;
+        margin-top: 20px; }
   .contenedor .portafolio {
     background-color: #fff;
     padding: 5% 3%; }
