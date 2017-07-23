@@ -194,8 +194,38 @@ body{
 	}
 
 	.plan{
-		background-color:#f0f0f0;
-		padding:5% 3%;
+		@include padd-g();
+		h3{
+			color:$color_titulos;
+			font-weight:$negrita;
+		}
+		p{
+			color:$color_p_sub;
+		}
+		.card{
+			h6{
+				color:$color_p_sub;
+				font-size:$tam_menos_uno;
+				font-weight:$negrita;
+			}
+			sup, sub{
+				color:$color_sim;
+				font-size:0.5em;
+			}
+			.card-content{
+				p{
+					color:$color_p_sub;
+					padding:$mar_cinco 0;
+				}
+				span{
+					color:$color_titulos;
+					font-weight:$negrita;
+				}
+				a{
+					@include  botones();
+				}
+			}
+		}
 	}
 	.clientes{
 		background-color:#fff;
