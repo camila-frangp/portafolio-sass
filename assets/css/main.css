@@ -6924,8 +6924,15 @@ body {
         color: #999;
         margin-top: 20px; }
   .contenedor .portafolio {
-    background-color: #fff;
-    padding: 5% 3%; }
+    padding: 5% 3%;
+    background-color: #fff; }
+    .contenedor .portafolio h4 {
+      color: #3c4858;
+      font-weight: bold; }
+    .contenedor .portafolio p {
+      color: #999; }
+    .contenedor .portafolio img {
+      border-radius: 4%; }
   .contenedor .team {
     background-color: #fff;
     padding: 5% 3%; }

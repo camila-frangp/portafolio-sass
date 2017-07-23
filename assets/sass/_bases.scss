@@ -146,8 +146,17 @@ body{
 		}
 	}
 	.portafolio{
-		background-color:#fff;
-		padding:5% 3%;
+		@include padd-w();
+		h4{
+				color:$color_titulos;
+				font-weight:$negrita;
+			}
+			p{
+				color:$color_p_sub;
+			}
+			img{
+				border-radius: $radio;
+			}
 	}
 	.team{
 		background-color:#fff;
