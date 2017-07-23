@@ -13,36 +13,97 @@
 <body>
 	<heade>
 	<!-- Dropdown Structure -->
-		<nav>
+		<nav >
 		    <div class="nav-wrapper navbar-fixed">
 			    <a href="#!" class="brand-logo">Hestia Pro</a>
 			    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 		      	<ul class="right hide-on-med-and-down">
 			        <li><a class="dropdown-button" href="#!" data-activates="dropdown1" data-beloworigin="true" data-constrainWidth="false"><i class="material-icons left">cloud</i>FEATURES<i class="material-icons right">arrow_drop_down</i></a></li>
-			        <li><a class="dropdown-button" href="#!" data-activates="dropdown2" data-beloworigin="true" data-constrainWidth="false">SECTIONS<i class="material-icons right">arrow_drop_down</i></a></li>
+			        <li><a class="dropdown-button" href="#!" data-activates="dropdown2" data-beloworigin="true" data-constrainWidth="false"><i class="fa fa-sort" aria-hidden="true"></i> SECTIONS<i class="material-icons right">arrow_drop_down</i></a></li>
 			        <li><a href="collapsible.html">SHOP</a></li>
 			        <li><a href="mobile.html">BLOG</a></li>
 			        <li><a href="mobile.html">CONTACT</a></li>
-			        <a class="waves-effect waves-light btn"><i class="material-icons left">shopping_cart</i>BUY NOW</a>
+			        <a class="waves-effect waves-light btn rosa"><i class="material-icons left">shopping_cart</i>BUY NOW</a>
 
 		      	</ul>
 			    <ul class="side-nav" id="mobile-demo">
-			        <li><a class="dropdown-button" href="#!"  data-beloworigin="true"><i class="material-icons left">cloud</i>FEATURES<i class="material-icons right">arrow_drop_down</i></a></li>
-			        <li><a class="dropdown-button" href="#!" data-beloworigin="true">SECTIONS<i class="material-icons right">arrow_drop_down</i></a></li>
-			        <li><a href="collapsible.html">SHOP</a></li>
-			        <li><a href="mobile.html">BLOG</a></li>
-			        <li><a href="mobile.html">CONTACT</a></li>
-			        <li><a class="waves-effect waves-light btn">BUY NOW</a></li>
+			        <ul class="collapsible" data-collapsible="accordion">
+					    <li>
+					      	<div class="collapsible-header"><i class="material-icons left">cloud</i>FEATURES<i class="material-icons right">arrow_drop_down</i></div>
+					      	<div class="collapsible-body">
+					      		<span>
+					      			<ul >
+								  		<li><a href="#!"><i class="fa fa-clock-o" aria-hidden="true"></i>1 minute setup</a></li>
+								 		<li><a href="#!"><i class="fa fa-rocket" aria-hidden="true"></i> Fast Updates & Support</a></li>
+								 		<li><a href="#!"><i class="fa fa-eye" aria-hidden="true"></i> Live Customizer</a></li>
+								 		<li><a href="#!"><i class="fa fa-video-camera" aria-hidden="true"></i> Video Tutorials</a></li>
+								 		<li><a href="#!"><i class="fa fa-picture-o" aria-hidden="true"></i> Custome Backgrounds</a></li>
+								 		<li><a href="#!"><i class="fa fa-mobile" arial-hidden="true"></i> Responsive Design</a></li>
+								 		<li><a href="#!"><i class="fa fa-fast-forward" aria-hidden="true"></i> Optimized for speed</a></li>
+								 		<li><a href="#!"><i class="fa fa-flag" aria-hidden="true"></i> Translation & RTL Ready</a></li>
+								 		<li><a href="#!"><i class="fa fa-search" aria-hidden="true"></i> SEO Optimized</a></li>
+								 		<li><a href="#!"><i class="fa fa-arrows" aria-hidden="true"></i> Drag-and-Drop Builder</a></li>
+								 		<li><a href="#!"><i class="fa fa-money" aria-hidden="true"></i> WooCommerce Ready</a></li>
+									</ul>
+					      		</span>
+					      	</div>
+					    </li>
+					    <li>
+					      	<div class="collapsible-header"><i class="fa fa-sort" aria-hidden="true"></i> SECTIONS<i class="material-icons right">arrow_drop_down</i></div>
+					      	<div class="collapsible-body">
+					      		<span>
+					      			<ul >
+								  		<li><a href="#!"><i class="fa fa-star" aria-hidden="true"></i> Features</a></li>
+								 		<li><a href="#!"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a></li>
+								 		<li><a href="#!"><i class="fa fa-users" aria-hidden="true"></i>Our team</a></li>
+								 		<li><a href="#!"><i class="fa fa-usd" aria-hidden="true"></i> Price</a></li>
+								 		<li><a href="#!"><i class="fa fa-commenting" aria-hidden="true"></i> Testimonials</a></li>
+								 		<li><a href="#!"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Subscribe</a></li>
+								 		<li><a href="#!"><i class="fa fa-newspaper-o" aria-hidden="true"></i>Blog</a></li>
+								 		<li><a href="#!"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact</a></li>
+									</ul>
+					      		</span>
+					      	</div>
+					    </li>
+					    <li>
+					      	<div class="collapsible-header">SHOP</div>
+					    </li>
+					    <li>
+					      	<div class="collapsible-header">BLOG</div>
+					    </li>
+					    <li>
+					      	<div class="collapsible-header">CONTACT</div>
+					    </li>
+					    <li>
+					      	<div class="collapsible-header"><a class="waves-effect waves-light btn rosa"><i class="material-icons left">shopping_cart</i>BUY NOW</a></div>
+					    </li>
+
+					</ul>
 			    </ul>
 		    </div>
 	  	</nav>
 	  	<ul id="dropdown1" class="dropdown-content">
-	  		<li><a href="#!">one</a></li>
-	 		<li><a href="#!">two</a></li>
+	  		<li><a href="#!"><i class="fa fa-clock-o" aria-hidden="true"></i>1 minute setup</a></li>
+	 		<li><a href="#!"><i class="fa fa-rocket" aria-hidden="true"></i> Fast Updates & Support</a></li>
+	 		<li><a href="#!"><i class="fa fa-eye" aria-hidden="true"></i> Live Customizer</a></li>
+	 		<li><a href="#!"><i class="fa fa-video-camera" aria-hidden="true"></i> Video Tutorials</a></li>
+	 		<li><a href="#!"><i class="fa fa-picture-o" aria-hidden="true"></i> Custome Backgrounds</a></li>
+	 		<li><a href="#!"><i class="fa fa-mobile" arial-hidden="true"></i> Responsive Design</a></li>
+	 		<li><a href="#!"><i class="fa fa-fast-forward" aria-hidden="true"></i> Optimized for speed</a></li>
+	 		<li><a href="#!"><i class="fa fa-flag" aria-hidden="true"></i> Translation & RTL Ready</a></li>
+	 		<li><a href="#!"><i class="fa fa-search" aria-hidden="true"></i> SEO Optimized</a></li>
+	 		<li><a href="#!"><i class="fa fa-arrows" aria-hidden="true"></i> Drag-and-Drop Builder</a></li>
+	 		<li><a href="#!"><i class="fa fa-money" aria-hidden="true"></i> WooCommerce Ready</a></li>
 		</ul>
 		<ul id="dropdown2" class="dropdown-content">
-	  		<li><a href="#!">lala</a></li>
-	 		<li><a href="#!">lele</a></li>
+	  		<li><a href="#!"><i class="fa fa-star" aria-hidden="true"></i> Features</a></li>
+	 		<li><a href="#!"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a></li>
+	 		<li><a href="#!"><i class="fa fa-users" aria-hidden="true"></i>Our team</a></li>
+	 		<li><a href="#!"><i class="fa fa-usd" aria-hidden="true"></i> Price</a></li>
+	 		<li><a href="#!"><i class="fa fa-commenting" aria-hidden="true"></i> Testimonials</a></li>
+	 		<li><a href="#!"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Subscribe</a></li>
+	 		<li><a href="#!"><i class="fa fa-newspaper-o" aria-hidden="true"></i>Blog</a></li>
+	 		<li><a href="#!"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact</a></li>
 		</ul>
 		<div class="slider fullscreen">
 		    <ul class="slides">

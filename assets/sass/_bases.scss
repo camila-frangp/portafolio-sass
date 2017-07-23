@@ -1,9 +1,31 @@
 nav{
 	background-color: $color_nav;
+	box-shadow: $nada;
+	.rosa{
+		@include botones();
+	}
+	.rosa:hover {
+		@include botones();
+	}
+	.rosa:hover, .rosa:focus, .rosa:active {
+	  -webkit-transform: scale(1.1);
+	  transform: scale(1.1);
+	}
+	.brand-logo{
+		margin-left:$mar_left_nav;
+		font-size: 1.3em;
+	}
+	.collapsible-header{
+		color:$color_text_drop;
+	}
 }
 
 body{
 	background-color: $color_fondo;
+}
+
+.dropdown-content  li a{
+	color:$color_text_drop;
 }
 
 .slider{
@@ -21,8 +43,15 @@ body{
 	}
 
 	ul li a{
-		background-color: $color_btn;
+		@include botones();
 		margin-top: $alto_sub;
+	}
+	ul li a:hover{
+		@include botones();
+	}
+	ul li a:hover, ul li a:focus, ul li a:active{
+		-webkit-transform: scale(1.1);
+	  	transform: scale(1.1);
 	}
 }
 
