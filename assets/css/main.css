@@ -6813,5 +6813,10 @@ body {
     padding: 5% 3%; }
     .contenedor .products .titulopro {
       margin-top: 5vh; }
+  .contenedor .portafolio {
+    background-color: #fff;
+    padding: 5% 3%; }
+    .contenedor .portafolio .materialboxed {
+      background-color: #000; }
 
 /*# sourceMappingURL=main.css.map */
