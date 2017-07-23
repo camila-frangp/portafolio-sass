@@ -12,7 +12,7 @@ nav{
 	  transform: scale(1.1);
 	}
 	.brand-logo{
-		margin-left:$mar_left_nav;
+		margin-left:$mar_cinco;
 		font-size: 1.3em;
 	}
 	.collapsible-header{
@@ -58,18 +58,46 @@ body{
 .contenedor{
 	position: $abso;
 	top:80vh;
-	background-color: #fff;
+	background-color: $blanco;
 	width:90%;
-	margin-left: 5%;
-	border-radius: 10px;
-	box-shadow:#eeeeee;
-	.texto-inicio, .iconos{
-		margin-top: 5vh;
+	margin-left: $mar_cinco;
+	border-radius: $borde;
+	box-shadow:$color_gris_ee;
+	.texto-inicio{
+		margin-top: $alto_sub;
+		color:$color_p_sub;
+
+	}
+	.iconos{
+		margin-top: $alto_sub;
+		.fa-th{
+			color:$color_btn;
+		}
+		.fa-th-list{
+			color:$color_cel
+		}
+		.fa-reorder{
+			color:$color_ver;
+		}
+		h5{
+			color:$color_subti;
+			font-weight:$negrita;
+			font-size:$tam_uno
+		}
+		p{
+			color:$color_p_sub;
+		}
+		
 	}
 	.imagenbn{
 		background-image: url(../img/img_city.jpg);
 		background-size: cover;
 		padding: 5% 3%;
+		background-attachment: fixed;
+
+		h3, p{
+			color:$blanco
+		}
 		.videobn{
 			margin-top: 7%;
 		}
@@ -78,7 +106,7 @@ body{
 		background-color:#f0f0f0;
 		padding:5% 3%;
 		.titulopro{
-			margin-top:5vh;
+			margin-top:$alto_sub;
 		}
 	}
 	.portafolio{

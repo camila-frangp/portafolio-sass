@@ -6865,12 +6865,30 @@ body {
   margin-left: 5%;
   border-radius: 10px;
   box-shadow: #eeeeee; }
-  .contenedor .texto-inicio, .contenedor .iconos {
+  .contenedor .texto-inicio {
+    margin-top: 5vh;
+    color: #999; }
+  .contenedor .iconos {
     margin-top: 5vh; }
+    .contenedor .iconos .fa-th {
+      color: #e91e63; }
+    .contenedor .iconos .fa-th-list {
+      color: #00bcd4; }
+    .contenedor .iconos .fa-reorder {
+      color: #4caf50; }
+    .contenedor .iconos h5 {
+      color: #3c4858;
+      font-weight: bold;
+      font-size: 1em; }
+    .contenedor .iconos p {
+      color: #999; }
   .contenedor .imagenbn {
     background-image: url(../img/img_city.jpg);
     background-size: cover;
-    padding: 5% 3%; }
+    padding: 5% 3%;
+    background-attachment: fixed; }
+    .contenedor .imagenbn h3, .contenedor .imagenbn p {
+      color: #fff; }
     .contenedor .imagenbn .videobn {
       margin-top: 7%; }
   .contenedor .products {
