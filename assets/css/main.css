@@ -6830,5 +6830,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 5% 3%; }
+  .contenedor .blog {
+    background-color: #fff;
+    padding: 5% 3%; }
 
 /*# sourceMappingURL=main.css.map */
