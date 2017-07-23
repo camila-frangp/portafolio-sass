@@ -148,20 +148,51 @@ body{
 	.portafolio{
 		@include padd-w();
 		h4{
-				color:$color_titulos;
-				font-weight:$negrita;
-			}
-			p{
-				color:$color_p_sub;
-			}
-			img{
-				border-radius: $radio;
-			}
+			color:$color_titulos;
+			font-weight:$negrita;
+		}
+		p{
+			color:$color_p_sub;
+		}
+		img{
+			border-radius: $radio;
+		}
 	}
 	.team{
-		background-color:#fff;
-		padding:5% 3%;
+		@include padd-w();
+		h4,h6{
+			color:$color_titulos;
+			font-weight:$negrita;
+		}
+		p{
+			color:$color_p_sub;
+		}
+		.fa{
+			margin: $mar_cinco;
+		}	
+		.fa-facebook{
+			color:$color_fb;
+		}
+		.fa-google-plus{
+			color:$color_gmail;
+		}
+		.fa-twitter{
+			color:$color_twitter;
+		}
+		.fa-linkedin{
+			color:$color_in;
+		}
+		.fa-pinterest{
+			color:$color_pin;
+		}
+		.fa-dribbble{
+			color:$color_drib;
+		}
+		.fa-github-square{
+			color:$color_text_drop;
+		}
 	}
+
 	.plan{
 		background-color:#f0f0f0;
 		padding:5% 3%;
@@ -192,7 +223,7 @@ body{
 
 	ul li{
 		display: inline-block;
-		list-style: none
+		list-style: none;
 	}
 
 }

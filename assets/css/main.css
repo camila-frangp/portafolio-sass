@@ -6934,8 +6934,29 @@ body {
     .contenedor .portafolio img {
       border-radius: 4%; }
   .contenedor .team {
-    background-color: #fff;
-    padding: 5% 3%; }
+    padding: 5% 3%;
+    background-color: #fff; }
+    .contenedor .team h4, .contenedor .team h6 {
+      color: #3c4858;
+      font-weight: bold; }
+    .contenedor .team p {
+      color: #999; }
+    .contenedor .team .fa {
+      margin: 5%; }
+    .contenedor .team .fa-facebook {
+      color: #3d5a99; }
+    .contenedor .team .fa-google-plus {
+      color: #de5241; }
+    .contenedor .team .fa-twitter {
+      color: #55acee; }
+    .contenedor .team .fa-linkedin {
+      color: #137bb7; }
+    .contenedor .team .fa-pinterest {
+      color: #ce2a30; }
+    .contenedor .team .fa-dribbble {
+      color: #ee6fa0; }
+    .contenedor .team .fa-github-square {
+      color: #333; }
   .contenedor .plan {
     background-color: #f0f0f0;
     padding: 5% 3%; }
