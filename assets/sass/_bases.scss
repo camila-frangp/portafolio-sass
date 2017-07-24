@@ -59,7 +59,7 @@ body{
 	position: $abso;
 	top:80vh;
 	background-color: $blanco;
-	width:90%;
+	width:$nueve;
 	margin-left: $mar_cinco;
 	border-radius: $borde;
 	box-shadow:$color_gris_ee;
@@ -92,7 +92,7 @@ body{
 	.imagenbn{
 		background-image: url(../img/img_city.jpg);
 		background-size: cover;
-		padding: 5% 3%;
+		padding: $pad_sect;
 		background-attachment: fixed;
 		h3, p{
 			color:$blanco
@@ -252,7 +252,7 @@ body{
 		background-image: url(../img/about.jpg);
 		background-size: cover;
 		background-repeat: no-repeat;
-		padding:5% 3%;
+		padding:$pad_sect;
 		h4{
 			color:$blanco;
 			font-weight:$negrita;
@@ -315,11 +315,39 @@ body{
 	.get{
 		background-image: url(../img/img_city.jpg);
 		background-size: cover;
-		padding: 5% 3%;
+		padding: $pad_sect;
+		h4, h6{
+			color:$blanco;
+			font-weight:$negrita;
+		}
+		p, i{
+			color:$blanco;
+		}
+		.contact a{
+			@include  botones();
+			color:$blanco;
+			font-weight:$negrita;
+			width:$nueve;
+			height:$diez;
+			border-radius:$radio;
+		}
+		.card{
+			margin-top:-10%;
+			border-radius:$mar_cinco;
+			form{
+				margin-top:10%;
+				a{
+					@include  botones();
+				}
+			}
+		}
+		
+
 	}
 	.close{
 		background-color: #323437;
-		padding:5% 3%;
+		padding: $pad_sect;
+
 	}
 
 	ul li{

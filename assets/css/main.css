@@ -7071,6 +7071,47 @@ body {
     background-image: url(../img/img_city.jpg);
     background-size: cover;
     padding: 5% 3%; }
+    .contenedor .get h4, .contenedor .get h6 {
+      color: #fff;
+      font-weight: bold; }
+    .contenedor .get p, .contenedor .get i {
+      color: #fff; }
+    .contenedor .get .contact a {
+      background-color: #e91e63;
+      height: 8vh;
+      padding: 10px 40px;
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 5px #333;
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+      color: #fff;
+      font-weight: bold;
+      width: 90%;
+      height: 10vh;
+      border-radius: 4%; }
+    .contenedor .get .card {
+      margin-top: -10%;
+      border-radius: 5%; }
+      .contenedor .get .card form {
+        margin-top: 10%; }
+        .contenedor .get .card form a {
+          background-color: #e91e63;
+          height: 8vh;
+          padding: 10px 40px;
+          display: inline-block;
+          vertical-align: middle;
+          -webkit-transform: perspective(1px) translateZ(0);
+          transform: perspective(1px) translateZ(0);
+          box-shadow: 5px #333;
+          -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+          -webkit-transition-property: transform;
+          transition-property: transform; }
   .contenedor .close {
     background-color: #323437;
     padding: 5% 3%; }
