@@ -6905,19 +6905,17 @@ body {
   .contenedor .products {
     padding: 5% 3%;
     background-color: #f0f0f0;
-    margin-top: -5%; }
-    .contenedor .products .titulopro {
-      margin-top: 5vh; }
-      .contenedor .products .titulopro h4 {
-        color: #3c4858;
-        font-weight: 700;
-        font-family: 'Roboto Slab', serif; }
-      .contenedor .products .titulopro p {
-        color: #999; }
+    margin-top: -3%; }
+    .contenedor .products .titulopro h4 {
+      color: #3c4858;
+      font-weight: 700;
+      font-family: 'Roboto Slab', serif; }
+    .contenedor .products .titulopro p {
+      color: #999; }
     .contenedor .products .card {
       padding: 5%;
       border-radius: 4%;
-      margin: 5% 1%;
+      margin: 10% 1%;
       height: 100vh; }
       .contenedor .products .card .card-image {
         margin-top: -15%;
@@ -6946,47 +6944,49 @@ body {
       font-family: 'Roboto Slab', serif; }
     .contenedor .portafolio p {
       color: #999; }
-    .contenedor .portafolio .imgs {
-      margin-top: 15%; }
-      .contenedor .portafolio .imgs img {
-        border-radius: 4%;
-        display: block;
-        width: 100%;
-        height: auto; }
-      .contenedor .portafolio .imgs .overlay {
-        position: relative;
-        width: 100%;
-        height: 300%;
-        opacity: 0;
-        transition: 3s ease;
-        background-color: rgba(0, 0, 0, 0.8); }
-        .contenedor .portafolio .imgs .overlay .relleno {
-          color: #fff;
-          position: static;
-          width: 120%;
-          font-size: 0.8em;
-          margin-top: -45%;
-          margin-left: 50%;
-          transform: translate(-50%, -50%);
-          -ms-transform: translate(-50%, -50%); }
-          .contenedor .portafolio .imgs .overlay .relleno .fucsia {
-            background-color: #e91e63;
-            border-radius: 10px;
-            width: 50%;
-            margin-left: 25%;
-            height: 5vh; }
-          .contenedor .portafolio .imgs .overlay .relleno .cel {
-            background-color: #00bcd4;
-            border-radius: 10px;
-            width: 50%;
-            margin-left: 25%;
-            height: 5vh; }
-          .contenedor .portafolio .imgs .overlay .relleno .nar {
-            background-color: #f44336;
-            border-radius: 10px;
-            width: 50%;
-            margin-left: 25%;
-            height: 5vh; }
+    .contenedor .portafolio .port-img {
+      padding: 3% 0; }
+    .contenedor .portafolio .port-img-bad {
+      padding: 10% 0; }
+    .contenedor .portafolio .imgs img {
+      border-radius: 4%;
+      display: block;
+      width: 100%;
+      height: auto; }
+    .contenedor .portafolio .imgs .overlay {
+      position: relative;
+      width: 100%;
+      height: 300%;
+      opacity: 0;
+      transition: 3s ease;
+      background-color: rgba(0, 0, 0, 0.8); }
+      .contenedor .portafolio .imgs .overlay .relleno {
+        color: #fff;
+        position: static;
+        width: 120%;
+        font-size: 0.8em;
+        margin-top: -45%;
+        margin-left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%); }
+        .contenedor .portafolio .imgs .overlay .relleno .fucsia {
+          background-color: #e91e63;
+          border-radius: 10px;
+          width: 50%;
+          margin-left: 25%;
+          height: 5vh; }
+        .contenedor .portafolio .imgs .overlay .relleno .cel {
+          background-color: #00bcd4;
+          border-radius: 10px;
+          width: 50%;
+          margin-left: 25%;
+          height: 5vh; }
+        .contenedor .portafolio .imgs .overlay .relleno .nar {
+          background-color: #f44336;
+          border-radius: 10px;
+          width: 50%;
+          margin-left: 25%;
+          height: 5vh; }
     .contenedor .portafolio .imgs:hover .overlay {
       opacity: 1; }
   .contenedor .team {
@@ -7195,7 +7195,7 @@ body {
     background-color: #323437;
     padding: 5% 3% 0 3%;
     margin-top: -5%;
-    height: 60vh; }
+    height: 100%; }
     .contenedor .close h4 {
       color: #fff;
       font-weight: 700;
@@ -7223,5 +7223,9 @@ body {
       margin-left: 50%; }
     .contenedor .close .end a {
       color: #fff; }
+
+@media screen and (max-width: 767px) {
+  .imgs {
+    margin-top: 30%; } }
 
 /*# sourceMappingURL=main.css.map */
