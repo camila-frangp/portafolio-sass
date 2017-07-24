@@ -6948,29 +6948,47 @@ body {
       color: #999; }
     .contenedor .portafolio .imgs {
       margin-top: 15%; }
-    .contenedor .portafolio img {
-      border-radius: 4%;
-      display: block;
-      width: 100%;
-      height: auto; }
-    .contenedor .portafolio .overlay {
-      position: relative;
-      width: 100%;
-      height: 150%;
-      opacity: 0;
-      transition: 3s ease;
-      background-color: rgba(0, 0, 0, 0.5); }
+      .contenedor .portafolio .imgs img {
+        border-radius: 4%;
+        display: block;
+        width: 100%;
+        height: auto; }
+      .contenedor .portafolio .imgs .overlay {
+        position: relative;
+        width: 100%;
+        height: 300%;
+        opacity: 0;
+        transition: 3s ease;
+        background-color: rgba(0, 0, 0, 0.8); }
+        .contenedor .portafolio .imgs .overlay .relleno {
+          color: #fff;
+          position: static;
+          width: 120%;
+          font-size: 0.8em;
+          margin-top: -45%;
+          margin-left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%); }
+          .contenedor .portafolio .imgs .overlay .relleno .fucsia {
+            background-color: #e91e63;
+            border-radius: 10px;
+            width: 50%;
+            margin-left: 25%;
+            height: 5vh; }
+          .contenedor .portafolio .imgs .overlay .relleno .cel {
+            background-color: #00bcd4;
+            border-radius: 10px;
+            width: 50%;
+            margin-left: 25%;
+            height: 5vh; }
+          .contenedor .portafolio .imgs .overlay .relleno .nar {
+            background-color: #f44336;
+            border-radius: 10px;
+            width: 50%;
+            margin-left: 25%;
+            height: 5vh; }
     .contenedor .portafolio .imgs:hover .overlay {
       opacity: 1; }
-    .contenedor .portafolio .relleno {
-      color: #fff;
-      position: static;
-      width: 120%;
-      font-size: 0.8em;
-      margin-top: -45%;
-      margin-left: 50%;
-      transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%); }
   .contenedor .team {
     padding: 5% 3%;
     background-color: #fff; }

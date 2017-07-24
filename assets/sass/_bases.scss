@@ -173,41 +173,68 @@ body{
 		}
 
 		.imgs{
-				margin-top:15%;
-		}
-		img{
-			border-radius: $radio;
-			display: block;
-  			width: 100%;
-  			height: auto;
-  		
-		}
+			margin-top:15%;
+			img{
+				border-radius: $radio;
+				display: block;
+	  			width: 100%;
+	  			height: auto;
+			}
 
+			.overlay{
+				position:relative;
+				width:100%;
+				height:300%;
+				opacity:0;
+				transition: 3s ease;
+				background-color: rgba(0,0,0, 0.8);
 
-		.overlay{
-			position:relative;
-			width:100%;
-			height:150%;
-			opacity:0;
-			transition: 3s ease;
-			background-color: rgba(0,0,0, 0.5);
+				.relleno{
+					color: $blanco;
+					position:static;
+					width:120%;
+					font-size: 0.8em;
+					margin-top:-45%;
+					margin-left:50%;
+					transform: translate(-50%, -50%);
+					-ms-transform: translate(-50%, -50%);
+
+					.fucsia{
+						background-color:$color_btn;
+						border-radius:10px;
+						width:50%;
+						margin-left: 25%;
+						height:5vh;
+					}
+					.cel{
+						background-color:$color_cel;
+						border-radius:10px;
+						width:50%;
+						margin-left: 25%;
+						height:5vh;
+					}
+					.nar{
+						background-color:$color_nar;
+						border-radius:10px;
+						width:50%;
+						margin-left: 25%;
+						height:5vh;
+					}
+				}
+
+			}
 		}
+		
+
+		
 		.imgs:hover .overlay{
 			opacity:1;
-		}
 
-		.relleno{
-			color: $blanco;
-			position:static;
-			width:120%;
-			font-size: 0.8em;
-			margin-top:-45%;
-			margin-left:50%;
-			transform: translate(-50%, -50%);
-			-ms-transform: translate(-50%, -50%);
+
 		}
 
 		
+
 	}
 	.team{
 		@include padd-w();
