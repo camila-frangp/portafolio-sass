@@ -7012,9 +7012,61 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 5% 3%; }
+    .contenedor .subs h4 {
+      color: #fff;
+      font-weight: bold; }
+    .contenedor .subs p {
+      color: #fff; }
+    .contenedor .subs .box-email {
+      background-color: #fff;
+      width: 60%;
+      border-radius: 10px; }
+      .contenedor .subs .box-email a {
+        background-color: #e91e63;
+        height: 8vh;
+        padding: 10px 40px;
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 5px #333;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+        margin-top: 5%;
+        margin-left: 50%; }
   .contenedor .blog {
-    background-color: #fff;
-    padding: 5% 3%; }
+    padding: 5% 3%;
+    background-color: #fff; }
+    .contenedor .blog h4 {
+      color: #3c4858;
+      font-weight: bold; }
+    .contenedor .blog p {
+      color: #999; }
+    .contenedor .blog img {
+      border-radius: 10px; }
+    .contenedor .blog .h6_1 {
+      color: #e91e63;
+      font-size: 0.8em;
+      font-weight: bold; }
+    .contenedor .blog .h6_2 {
+      color: #00bcd4;
+      font-size: 0.8em;
+      font-weight: bold; }
+    .contenedor .blog .h6_3 {
+      color: #f44336;
+      font-size: 0.8em;
+      font-weight: bold; }
+    .contenedor .blog h5 {
+      color: #3c4858;
+      font-weight: bold;
+      font-size: 1.2em; }
+    .contenedor .blog .row .xl4 p {
+      color: #999;
+      font-size: 0.8em; }
+    .contenedor .blog a {
+      color: #3c4858; }
   .contenedor .get {
     background-image: url(../img/img_city.jpg);
     background-size: cover;

@@ -237,17 +237,15 @@ body{
 			color:$color_p_sub;
 		}
 		img{
-			width:$mitad
+			width:$mitad;
 		}
 		h6{
 			color:$color_sim;
 		}
 		.row div p{
-	
 			color:$color_p_sub;
 			font-size:$tam_menos_uno;
 			padding:$borde;
-		
 		}
 	}
 	.subs{
@@ -255,10 +253,64 @@ body{
 		background-size: cover;
 		background-repeat: no-repeat;
 		padding:5% 3%;
+		h4{
+			color:$blanco;
+			font-weight:$negrita;
+		}
+		p{
+			color:$blanco;
+		}
+		.box-email{
+			background-color: $blanco;
+			width:60%;
+			border-radius: $borde;
+			a{
+				@include  botones();
+				margin-top: $mar_cinco;
+				margin-left:$mitad;
+			}
+		}
 	}
 	.blog{
-		background-color:#fff;
-		padding:5% 3%;
+		@include padd-w();
+		h4{
+			color:$color_titulos;
+			font-weight:$negrita;
+		}
+		p{
+			color:$color_p_sub;
+		}
+		img{
+			border-radius: $borde;
+		}
+		.h6_1{
+			color:$color_btn;
+			font-size:$tam_menos_uno;
+			font-weight:$negrita;
+		}
+		.h6_2{
+			color:$color_cel;
+			font-size:$tam_menos_uno;
+			font-weight:$negrita;
+		}
+		.h6_3{
+			color:$color_nar;
+			font-size:$tam_menos_uno;
+			font-weight:$negrita;
+		}
+		h5{
+			color:$color_titulos;
+			font-weight:$negrita;
+			font-size:$tam_unotres;
+		}
+		.row .xl4 p{
+			color:$color_p_sub;
+			font-size:$tam_menos_uno;
+		}
+		a{
+			color:$color_titulos;
+		}
+
 	}
 	.get{
 		background-image: url(../img/img_city.jpg);
