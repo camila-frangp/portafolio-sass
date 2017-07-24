@@ -10,8 +10,8 @@
 
 @mixin botones(){
 	background-color:$color_btn;
-	height: $alto_btn;
-	padding: 10px 40px;
+	height: 4%;
+	padding: 2% 4%;
 	display: inline-block;
 	  vertical-align: middle;
 	  -webkit-transform: perspective(1px) translateZ(0);

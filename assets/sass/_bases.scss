@@ -99,11 +99,17 @@ body{
 		background-size: cover;
 		padding: $pad_sect;
 		background-attachment: fixed;
-		h3, p{
-			color:$blanco
+		background-color: red;
+		h3{
+			font-family: 'Roboto Slab', serif;
+			color:$blanco;
+			font-weight:$supernegrita;
+		} 
+		p{
+			color:$blanco;
 		}
 		.videobn{
-			margin-top: 7%;
+			width: 100%;
 		}
 	}
 	.negro{
@@ -111,11 +117,13 @@ body{
 	}
 	.products{
 		@include padd-g();
+		margin-top:-5%;
 		.titulopro{
 			margin-top:$alto_sub;
 			h4{
 				color:$color_titulos;
-				font-weight:$negrita;
+				font-weight:$supernegrita;
+				font-family: 'Roboto Slab', serif;
 			}
 			p{
 				color:$color_p_sub;
@@ -124,6 +132,8 @@ body{
 		.card{
 			padding: $mar_cinco;
 			border-radius: $radio;
+			margin: 5% 1%;
+			height:100vh;
 			
 			.card-image{
 				margin-top:$mar_neg;
@@ -138,15 +148,16 @@ body{
 			}
 			h4{
 				color:$color_titulos;
-				font-weight:$negrita;
+				font-weight:$supernegrita;
 				font-size:$tam_unotres;
+				font-family: 'Roboto Slab', serif;
 			}
 			p{
 				color:$color_p_sub;
 			}
 			.valor{
 				color:$color_p_sub;
-				margin-top: 20px;
+				margin-top: 5vh;
 			}
 		}
 	}
@@ -154,7 +165,8 @@ body{
 		@include padd-w();
 		h4{
 			color:$color_titulos;
-			font-weight:$negrita;
+			font-weight:$supernegrita;
+			font-family: 'Roboto Slab', serif;
 		}
 		p{
 			color:$color_p_sub;
@@ -162,12 +174,21 @@ body{
 		img{
 			border-radius: $radio;
 		}
+		.port-hover{
+			position:$abso;
+			background-color:(0,0,0,0.8);
+			opacity: $cero;
+		}
+		.port-hover:hover{
+			opacity:1;
+		}
 	}
 	.team{
 		@include padd-w();
 		h4,h6{
 			color:$color_titulos;
-			font-weight:$negrita;
+			font-weight:$supernegrita;
+			font-family: 'Roboto Slab', serif;
 		}
 		p{
 			color:$color_p_sub;
@@ -202,12 +223,14 @@ body{
 		@include padd-g();
 		h3{
 			color:$color_titulos;
-			font-weight:$negrita;
+			font-weight:$supernegrita;
+			font-family: 'Roboto Slab', serif;
 		}
 		p{
 			color:$color_p_sub;
 		}
 		.card{
+			height: 80vh;
 			h6{
 				color:$color_p_sub;
 				font-size:$tam_menos_uno;
@@ -218,6 +241,7 @@ body{
 				font-size:0.5em;
 			}
 			.card-content{
+
 				p{
 					color:$color_p_sub;
 					padding:$mar_cinco 0;
@@ -231,12 +255,18 @@ body{
 				}
 			}
 		}
+		.card.trans{
+				background-color: $color_nav;
+				border:$nada;
+				box-shadow:$nada;
+			}
 	}
 	.clientes{
 		@include padd-w();
 		h4, h5{
 			color:$color_titulos;
-			font-weight:$negrita;
+			font-weight:$supernegrita;
+			font-family: 'Roboto Slab', serif;
 		}
 		p{
 			color:$color_p_sub;
@@ -260,8 +290,7 @@ body{
 		padding:$pad_sect;
 		h4{
 			color:$blanco;
-			font-weight:$negrita;
-		}
+			font-weight:$supernegrita;		}
 		p{
 			color:$blanco;
 		}
@@ -269,10 +298,19 @@ body{
 			background-color: $blanco;
 			width:60%;
 			border-radius: $borde;
+			margin-top:$diez;
 			a{
 				@include  botones();
 				margin-top: $mar_cinco;
 				margin-left:$mitad;
+			}
+			.input-field input:focus{
+				border-bottom: 2px solid $color_btn !important;
+				box-shadow: none !important;
+			}
+
+			 .input-field .prefix.active{
+				color: $color_btn;
 			}
 		}
 	}
@@ -280,7 +318,8 @@ body{
 		@include padd-w();
 		h4{
 			color:$color_titulos;
-			font-weight:$negrita;
+			font-weight:$supernegrita;
+			font-family: 'Roboto Slab', serif;
 		}
 		p{
 			color:$color_p_sub;
@@ -305,7 +344,7 @@ body{
 		}
 		h5{
 			color:$color_titulos;
-			font-weight:$negrita;
+			font-weight:$supernegrita;
 			font-size:$tam_unotres;
 		}
 		.row .xl4 p{
@@ -323,10 +362,19 @@ body{
 		padding: $pad_sect;
 		h4, h6{
 			color:$blanco;
-			font-weight:$negrita;
+			font-weight:$supernegrita;
+			font-family: 'Roboto Slab', serif;
 		}
 		p, i{
 			color:$blanco;
+		}
+		input[type=text]:not(.browser-default):focus:not([readonly]),
+		.materialize-textarea:not(.browser-default):focus:not([readonly]){
+			border-bottom:$color_btn;
+			box-shadow:0 1px 0 0 $color_btn;
+		}
+		.input-field input[type=text]:focus + label {
+		    color: $color_btn;
 		}
 		.contact a{
 			@include  botones();
@@ -335,6 +383,7 @@ body{
 			width:$nueve;
 			height:$diez;
 			border-radius:$radio;
+
 		}
 		.card{
 			margin-top:-10%;
@@ -352,13 +401,19 @@ body{
 	.close{
 		background-color: $color_fin;
 		padding: 5% 3% 0 3%;
-		h4, i{
+		margin-top:-5%;
+		height:60vh;
+		h4{
 			color:$blanco;
-			font-weight:$negrita;
+			font-weight:$supernegrita;
+			font-family: 'Roboto Slab', serif;
 		}
 		p{
 			color:$color_p_sub;
 			font-size:$tam_menos_uno;
+		}
+		i{
+			color:$blanco;
 		}
 		a{
 			color:$color_p_sub;
@@ -367,6 +422,9 @@ body{
 		}
 		img{
 			border-radius: $radio;
+		}
+		.divider{
+			margin-top: 5%;
 		}
 		.end{
 			ul li{
@@ -379,9 +437,13 @@ body{
 				font-weight:$negrita;
 				margin-left:$mitad;
 			}
+			a{
+				color:$blanco;
+			}
 		}
 
 	}
 
 	
 }
+

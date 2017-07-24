@@ -6781,8 +6781,8 @@ nav {
   box-shadow: none; }
   nav .rosa {
     background-color: #e91e63;
-    height: 8vh;
-    padding: 10px 40px;
+    height: 4%;
+    padding: 2% 4%;
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -6794,8 +6794,8 @@ nav {
     transition-property: transform; }
   nav .rosa:hover {
     background-color: #e91e63;
-    height: 8vh;
-    padding: 10px 40px;
+    height: 4%;
+    padding: 2% 4%;
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -6832,8 +6832,8 @@ body {
     margin-top: 5vh; }
   .slider ul li a {
     background-color: #e91e63;
-    height: 8vh;
-    padding: 10px 40px;
+    height: 4%;
+    padding: 2% 4%;
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -6846,8 +6846,8 @@ body {
     margin-top: 5vh; }
   .slider ul li a:hover {
     background-color: #e91e63;
-    height: 8vh;
-    padding: 10px 40px;
+    height: 4%;
+    padding: 2% 4%;
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -6890,26 +6890,35 @@ body {
     background-image: url(../img/img_city.jpg);
     background-size: cover;
     padding: 5% 3%;
-    background-attachment: fixed; }
-    .contenedor .imagenbn h3, .contenedor .imagenbn p {
+    background-attachment: fixed;
+    background-color: red; }
+    .contenedor .imagenbn h3 {
+      font-family: 'Roboto Slab', serif;
+      color: #fff;
+      font-weight: 700; }
+    .contenedor .imagenbn p {
       color: #fff; }
     .contenedor .imagenbn .videobn {
-      margin-top: 7%; }
+      width: 100%; }
   .contenedor .negro {
     background-color: black; }
   .contenedor .products {
     padding: 5% 3%;
-    background-color: #f0f0f0; }
+    background-color: #f0f0f0;
+    margin-top: -5%; }
     .contenedor .products .titulopro {
       margin-top: 5vh; }
       .contenedor .products .titulopro h4 {
         color: #3c4858;
-        font-weight: bold; }
+        font-weight: 700;
+        font-family: 'Roboto Slab', serif; }
       .contenedor .products .titulopro p {
         color: #999; }
     .contenedor .products .card {
       padding: 5%;
-      border-radius: 4%; }
+      border-radius: 4%;
+      margin: 5% 1%;
+      height: 100vh; }
       .contenedor .products .card .card-image {
         margin-top: -15%;
         position: static; }
@@ -6920,29 +6929,38 @@ body {
         font-weight: bold; }
       .contenedor .products .card h4 {
         color: #3c4858;
-        font-weight: bold;
-        font-size: 1.2em; }
+        font-weight: 700;
+        font-size: 1.2em;
+        font-family: 'Roboto Slab', serif; }
       .contenedor .products .card p {
         color: #999; }
       .contenedor .products .card .valor {
         color: #999;
-        margin-top: 20px; }
+        margin-top: 5vh; }
   .contenedor .portafolio {
     padding: 5% 3%;
     background-color: #fff; }
     .contenedor .portafolio h4 {
       color: #3c4858;
-      font-weight: bold; }
+      font-weight: 700;
+      font-family: 'Roboto Slab', serif; }
     .contenedor .portafolio p {
       color: #999; }
     .contenedor .portafolio img {
       border-radius: 4%; }
+    .contenedor .portafolio .port-hover {
+      position: absolute;
+      background-color: 0, 0, 0, 0.8;
+      opacity: 0; }
+    .contenedor .portafolio .port-hover:hover {
+      opacity: 1; }
   .contenedor .team {
     padding: 5% 3%;
     background-color: #fff; }
     .contenedor .team h4, .contenedor .team h6 {
       color: #3c4858;
-      font-weight: bold; }
+      font-weight: 700;
+      font-family: 'Roboto Slab', serif; }
     .contenedor .team p {
       color: #999; }
     .contenedor .team .fa {
@@ -6966,41 +6984,49 @@ body {
     background-color: #f0f0f0; }
     .contenedor .plan h3 {
       color: #3c4858;
-      font-weight: bold; }
+      font-weight: 700;
+      font-family: 'Roboto Slab', serif; }
     .contenedor .plan p {
       color: #999; }
-    .contenedor .plan .card h6 {
-      color: #999;
-      font-size: 0.8em;
-      font-weight: bold; }
-    .contenedor .plan .card sup, .contenedor .plan .card sub {
-      color: #777;
-      font-size: 0.5em; }
-    .contenedor .plan .card .card-content p {
-      color: #999;
-      padding: 5% 0; }
-    .contenedor .plan .card .card-content span {
-      color: #3c4858;
-      font-weight: bold; }
-    .contenedor .plan .card .card-content a {
-      background-color: #e91e63;
-      height: 8vh;
-      padding: 10px 40px;
-      display: inline-block;
-      vertical-align: middle;
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      box-shadow: 5px #333;
-      -webkit-transition-duration: 0.3s;
-      transition-duration: 0.3s;
-      -webkit-transition-property: transform;
-      transition-property: transform; }
+    .contenedor .plan .card {
+      height: 80vh; }
+      .contenedor .plan .card h6 {
+        color: #999;
+        font-size: 0.8em;
+        font-weight: bold; }
+      .contenedor .plan .card sup, .contenedor .plan .card sub {
+        color: #777;
+        font-size: 0.5em; }
+      .contenedor .plan .card .card-content p {
+        color: #999;
+        padding: 5% 0; }
+      .contenedor .plan .card .card-content span {
+        color: #3c4858;
+        font-weight: bold; }
+      .contenedor .plan .card .card-content a {
+        background-color: #e91e63;
+        height: 4%;
+        padding: 2% 4%;
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 5px #333;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: transform;
+        transition-property: transform; }
+    .contenedor .plan .card.trans {
+      background-color: transparent;
+      border: none;
+      box-shadow: none; }
   .contenedor .clientes {
     padding: 5% 3%;
     background-color: #fff; }
     .contenedor .clientes h4, .contenedor .clientes h5 {
       color: #3c4858;
-      font-weight: bold; }
+      font-weight: 700;
+      font-family: 'Roboto Slab', serif; }
     .contenedor .clientes p {
       color: #999; }
     .contenedor .clientes img {
@@ -7018,17 +7044,18 @@ body {
     padding: 5% 3%; }
     .contenedor .subs h4 {
       color: #fff;
-      font-weight: bold; }
+      font-weight: 700; }
     .contenedor .subs p {
       color: #fff; }
     .contenedor .subs .box-email {
       background-color: #fff;
       width: 60%;
-      border-radius: 10px; }
+      border-radius: 10px;
+      margin-top: 10vh; }
       .contenedor .subs .box-email a {
         background-color: #e91e63;
-        height: 8vh;
-        padding: 10px 40px;
+        height: 4%;
+        padding: 2% 4%;
         display: inline-block;
         vertical-align: middle;
         -webkit-transform: perspective(1px) translateZ(0);
@@ -7040,12 +7067,18 @@ body {
         transition-property: transform;
         margin-top: 5%;
         margin-left: 50%; }
+      .contenedor .subs .box-email .input-field input:focus {
+        border-bottom: 2px solid #e91e63 !important;
+        box-shadow: none !important; }
+      .contenedor .subs .box-email .input-field .prefix.active {
+        color: #e91e63; }
   .contenedor .blog {
     padding: 5% 3%;
     background-color: #fff; }
     .contenedor .blog h4 {
       color: #3c4858;
-      font-weight: bold; }
+      font-weight: 700;
+      font-family: 'Roboto Slab', serif; }
     .contenedor .blog p {
       color: #999; }
     .contenedor .blog img {
@@ -7064,7 +7097,7 @@ body {
       font-weight: bold; }
     .contenedor .blog h5 {
       color: #3c4858;
-      font-weight: bold;
+      font-weight: 700;
       font-size: 1.2em; }
     .contenedor .blog .row .xl4 p {
       color: #999;
@@ -7077,13 +7110,20 @@ body {
     padding: 5% 3%; }
     .contenedor .get h4, .contenedor .get h6 {
       color: #fff;
-      font-weight: bold; }
+      font-weight: 700;
+      font-family: 'Roboto Slab', serif; }
     .contenedor .get p, .contenedor .get i {
       color: #fff; }
+    .contenedor .get input[type=text]:not(.browser-default):focus:not([readonly]),
+    .contenedor .get .materialize-textarea:not(.browser-default):focus:not([readonly]) {
+      border-bottom: #e91e63;
+      box-shadow: 0 1px 0 0 #e91e63; }
+    .contenedor .get .input-field input[type=text]:focus + label {
+      color: #e91e63; }
     .contenedor .get .contact a {
       background-color: #e91e63;
-      height: 8vh;
-      padding: 10px 40px;
+      height: 4%;
+      padding: 2% 4%;
       display: inline-block;
       vertical-align: middle;
       -webkit-transform: perspective(1px) translateZ(0);
@@ -7105,8 +7145,8 @@ body {
         margin-top: 10%; }
         .contenedor .get .card form a {
           background-color: #e91e63;
-          height: 8vh;
-          padding: 10px 40px;
+          height: 4%;
+          padding: 2% 4%;
           display: inline-block;
           vertical-align: middle;
           -webkit-transform: perspective(1px) translateZ(0);
@@ -7118,19 +7158,26 @@ body {
           transition-property: transform; }
   .contenedor .close {
     background-color: #323437;
-    padding: 5% 3% 0 3%; }
-    .contenedor .close h4, .contenedor .close i {
+    padding: 5% 3% 0 3%;
+    margin-top: -5%;
+    height: 60vh; }
+    .contenedor .close h4 {
       color: #fff;
-      font-weight: bold; }
+      font-weight: 700;
+      font-family: 'Roboto Slab', serif; }
     .contenedor .close p {
       color: #999;
       font-size: 0.8em; }
+    .contenedor .close i {
+      color: #fff; }
     .contenedor .close a {
       color: #999;
       font-weight: bold;
       font-size: 0.8em; }
     .contenedor .close img {
       border-radius: 4%; }
+    .contenedor .close .divider {
+      margin-top: 5%; }
     .contenedor .close .end ul li {
       display: inline-block;
       list-style: none;
@@ -7139,5 +7186,7 @@ body {
       color: #fff;
       font-weight: bold;
       margin-left: 50%; }
+    .contenedor .close .end a {
+      color: #fff; }
 
 /*# sourceMappingURL=main.css.map */
