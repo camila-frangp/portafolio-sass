@@ -1,3 +1,8 @@
+*{
+	margin:$cero;
+	padding:$cero;
+}
+
 nav{
 	background-color: $color_nav;
 	box-shadow: $nada;
@@ -345,14 +350,38 @@ body{
 
 	}
 	.close{
-		background-color: #323437;
-		padding: $pad_sect;
+		background-color: $color_fin;
+		padding: 5% 3% 0 3%;
+		h4, i{
+			color:$blanco;
+			font-weight:$negrita;
+		}
+		p{
+			color:$color_p_sub;
+			font-size:$tam_menos_uno;
+		}
+		a{
+			color:$color_p_sub;
+			font-weight:$negrita;
+			font-size:$tam_menos_uno;
+		}
+		img{
+			border-radius: $radio;
+		}
+		.end{
+			ul li{
+				display: inline-block;
+				list-style: none;
+				padding:$borde;
+			}
+			.der li{
+				color:$blanco;
+				font-weight:$negrita;
+				margin-left:$mitad;
+			}
+		}
 
 	}
 
-	ul li{
-		display: inline-block;
-		list-style: none;
-	}
-
+	
 }

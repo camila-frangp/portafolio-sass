@@ -6772,6 +6772,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/ }
 
+* {
+  margin: 0;
+  padding: 0; }
+
 nav {
   background-color: transparent;
   box-shadow: none; }
@@ -7114,9 +7118,26 @@ body {
           transition-property: transform; }
   .contenedor .close {
     background-color: #323437;
-    padding: 5% 3%; }
-  .contenedor ul li {
-    display: inline-block;
-    list-style: none; }
+    padding: 5% 3% 0 3%; }
+    .contenedor .close h4, .contenedor .close i {
+      color: #fff;
+      font-weight: bold; }
+    .contenedor .close p {
+      color: #999;
+      font-size: 0.8em; }
+    .contenedor .close a {
+      color: #999;
+      font-weight: bold;
+      font-size: 0.8em; }
+    .contenedor .close img {
+      border-radius: 4%; }
+    .contenedor .close .end ul li {
+      display: inline-block;
+      list-style: none;
+      padding: 10px; }
+    .contenedor .close .end .der li {
+      color: #fff;
+      font-weight: bold;
+      margin-left: 50%; }
 
 /*# sourceMappingURL=main.css.map */
